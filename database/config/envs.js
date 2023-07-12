@@ -1,5 +1,6 @@
-const dotenv = require("dotenv").config();
+const dotenv = require("dotenv");
+dotenv.config();
 
 module.exports = {
-  DATA_BASE_URI: process.env.DATA_BASE_URI,
+  URI: process.env.DATA_BASE_URI,
 };
